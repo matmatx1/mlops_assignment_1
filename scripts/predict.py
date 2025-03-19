@@ -18,8 +18,8 @@ def fetch_penguin_data():
 
 def load_model_components():
     """Load the trained model and preprocessors"""
-    clf = joblib.load('models/penguin_classifier.joblib')
-    scaler = joblib.load('models/penguin_scaler.joblib')
+    clf = joblib.load('../models/penguin_classifier.joblib')
+    scaler = joblib.load('../models/penguin_scaler.joblib')
     return clf, scaler
 
 def make_prediction(data, clf, scaler):
@@ -39,7 +39,7 @@ def make_prediction(data, clf, scaler):
 
 def update_prediction_history(new_prediction, new_data):
     """Update the prediction history JSON file"""
-    history_file = 'predictions.json'
+    history_file = '../data/predictions.json'
     
     # Load existing history or create new
     if os.path.exists(history_file):
@@ -135,7 +135,7 @@ def update_html_page(history):
 </html>
 """
     
-    with open('index.html', 'w') as f:
+    with open('../index.html', 'w') as f:
         f.write(html_content)
 
 def main():
