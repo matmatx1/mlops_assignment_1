@@ -5,5 +5,12 @@
     "bill_depth_mm": 13.796159907237413,
     "flipper_length_mm": 214.25917180221953,
     "body_mass_g": 4900.733949469735
+  },
+  {
+    "prediction": "Adelie",
+    "bill_length_mm": 37.49674160932227,
+    "bill_depth_mm": 19.552948464630344,
+    "flipper_length_mm": 194.13346720834585,
+    "body_mass_g": 2908.216536400228
   }
 ]
