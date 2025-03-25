@@ -1,5 +1,7 @@
 ### Penguin Species Classifier
 
+Webpage: https://matmatx1.github.io/mlops_assignment_1/
+
 This repository contains a classifier to predict the species of penguins based on some physical characteristics.
 
 ### Overview
